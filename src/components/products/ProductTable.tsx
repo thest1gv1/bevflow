@@ -14,7 +14,7 @@ const columns = [
 
 export default function ProductTable({ products }: { products: Product[] }) {
   return (
-    <table className="w-full min-w-[920px] table-fixed text-left">
+    <table className="w-full min-w-230 table-fixed text-left">
       <colgroup>
         <col className="w-[18%]" />
         <col className="w-[11%]" />
